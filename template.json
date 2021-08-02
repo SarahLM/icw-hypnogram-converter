@@ -1,0 +1,48 @@
+{
+  "resourceType": "Observation",
+    "id": "Hypnogram",
+    "text": "Hypnogram",
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "??",
+                "code": "22664",
+                "display": "MDC_EEG_SCORE_SLEEPSTG"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/xyz",
+        "display": "xyz"
+    },
+    "effectiveDateTime": "xyz",
+    "performer": [
+        {
+            "reference": "Practitioner/abz",
+            "display": "abc"
+        }
+    ],
+    "valueSampledData": {
+        "origin": {
+            "value": 0
+        },
+        "period": 30,
+        "factor": 1,
+        "lowerLimit": 0,
+        "upperLimit": 9,
+        "dimensions": 1,
+         "data": "None"
+    }
+}
